@@ -1,0 +1,48 @@
+.editFrom {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.418);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rContainer {
+  background-color: white;
+  padding: 20px;
+  position: relative;
+  .rClose {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    cursor: pointer;
+  }
+
+ .rItems {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 50px;
+
+  input {
+   outline: none;
+   height: 12px;
+   padding: 6px;
+   width: 100%;
+  }
+}
+  
+.rButton {
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 20px;
+}
+}
